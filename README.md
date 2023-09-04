@@ -21,7 +21,7 @@ The output is stored in a created folder `<path>/output` that will contain:
 * Raw data for the components of the plot, for reproducing the plots if that is necessary (to have them match custom reporting themes, or to be included in a plotly artefact)
 
 A sample of the image output is linked below:
-![A sample output run on data taken from the Austrian Abwassermonitor datasets in August 2023]()
+![A sample output run on data taken from the Austrian Abwassermonitor datasets in August 2023](https://github.com/fnnsll/causal_impact_docker/blob/main/docs/ci_figure_Wien_Salzburg_04_09_2023_20_48_00.png)
 
 ### Next Steps
  
