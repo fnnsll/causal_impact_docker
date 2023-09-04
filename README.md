@@ -10,6 +10,8 @@ The current preprocessing function in utils.py accepts data in a 'long' table, o
 
 You must provide a CSV with your raw data in `<path>/input`. 
 
+You can simulate a linear test effect during the test period by setting the variable `test_percent` in `consts.py` to a value greater than 1.
+
 ### Outputs
 
 The output is stored in a created folder `<path>/output` that will contain:
@@ -17,6 +19,9 @@ The output is stored in a created folder `<path>/output` that will contain:
 * A plot produced by the initial model process completion
 * A text file of the summary (containing the posterior probability of an effect)
 * Raw data for the components of the plot, for reproducing the plots if that is necessary (to have them match custom reporting themes, or to be included in a plotly artefact)
+
+A sample of the image output is linked below:
+![A sample output run on data taken from the Austrian Abwassermonitor datasets in August 2023]()
 
 ### Next Steps
  
